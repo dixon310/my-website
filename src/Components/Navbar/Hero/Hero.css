@@ -19,3 +19,38 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.hero p{
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+.hero-resume{
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    transform: scale(1.05);
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}
