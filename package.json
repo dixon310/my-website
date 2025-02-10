@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 8888",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-scroll": "^1.9.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
